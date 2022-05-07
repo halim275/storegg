@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable jsx-a11y/label-has-associated-control */
 export default function Custom404() {
   return (
     <section className="not-found mx-auto pt-145 pb-md-212 pb-100">

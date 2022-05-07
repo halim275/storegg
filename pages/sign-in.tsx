@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable jsx-a11y/label-has-associated-control */
 export default function SignIn() {
   return (
     <section className="sign-in mx-auto">

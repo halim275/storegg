@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable jsx-a11y/label-has-associated-control */
 export default function SignUp() {
   return (
     <section className="sign-up mx-auto pt-lg-100 pb-lg-100 pt-30 pb-47">
