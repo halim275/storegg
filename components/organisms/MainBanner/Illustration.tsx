@@ -33,7 +33,7 @@ export default function Illustration() {
           </div>
           <div className="card right-card position-absolute border-0">
             <div className="position-relative d-flex flex-row justify-content-center mb-24">
-              <Image src="/img/Header-3.png" className="rounded-pill" alt="" />
+              <img src="/img/Header-3.png" className="rounded-pill" alt="" />
               <p className="right-card-support text-white text-xxs text-center position-absolute m-0">
                 New
               </p>
