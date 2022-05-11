@@ -20,13 +20,7 @@ export default function TopUpItem(props: TopUpItemProps) {
   return (
     <div className="row align-items-center">
       <div className="col-md-12 col-4">
-        <img
-          src="/img/Thumbnail-3.png"
-          width="280"
-          height="380"
-          className="img-fluid"
-          alt=""
-        />
+        <img src="/img/Thumbnail-3.png" width="280" height="380" className="img-fluid" alt="" />
       </div>
       {/* <!-- Mobile: Game title --> */}
       <div className="col-md-12 col-8 d-md-none d-block">
@@ -35,9 +29,7 @@ export default function TopUpItem(props: TopUpItemProps) {
           <br />
           The New Battle 2021
         </h2>
-        <p className="text-sm color-palette-2 text-start mb-0">
-          Category: Mobile
-        </p>
+        <p className="text-sm color-palette-2 text-start mb-0">Category: Mobile</p>
       </div>
     </div>
   );

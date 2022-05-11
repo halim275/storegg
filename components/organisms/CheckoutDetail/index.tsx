@@ -2,9 +2,7 @@ export default function CheckoutDetail() {
   return (
     <>
       <div className="purchase pt-md-50 pt-30">
-        <h2 className="fw-bold text-xl color-palette-1 mb-20">
-          Purchase Details
-        </h2>
+        <h2 className="fw-bold text-xl color-palette-1 mb-20">Purchase Details</h2>
         <p className="text-lg color-palette-1 mb-20">
           Your Game ID
           <span className="purchase-details">masayoshizero</span>
@@ -27,16 +25,12 @@ export default function CheckoutDetail() {
         </p>
         <p className="text-lg color-palette-1 mb-20">
           Total
-          <span className="purchase-details color-palette-4">
-            Rp 55.000.600
-          </span>
+          <span className="purchase-details color-palette-4">Rp 55.000.600</span>
         </p>
       </div>
 
       <div className="payment pt-md-50 pb-md-50 pt-10 pb-10">
-        <h2 className="fw-bold text-xl color-palette-1 mb-20">
-          Payment Informations
-        </h2>
+        <h2 className="fw-bold text-xl color-palette-1 mb-20">Payment Informations</h2>
         <p className="text-lg color-palette-1 mb-20">
           Your Account Name
           <span className="purchase-details">Masayoshi Angga Zero</span>
