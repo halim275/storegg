@@ -24,9 +24,11 @@ export default function SignUpFrom() {
         <input type="password" className="form-control rounded-pill text-lg" id="password" name="password" aria-describedby="password" placeholder="Your password" />
       </div>
       <div className="button-group d-flex flex-column mx-auto pt-50">
-        <a className="btn btn-sign-up fw-medium text-lg text-white rounded-pill mb-16" href="/sign-up-photo" role="button">
-          Continue
-        </a>
+        <Link href="/sign-up-photo">
+          <a className="btn btn-sign-up fw-medium text-lg text-white rounded-pill mb-16" role="button">
+            Continue
+          </a>
+        </Link>
         <Link href="/sign-in">
           <a className="btn btn-sign-in fw-medium text-lg color-palette-1 rounded-pill" role="button">
             Sign In
