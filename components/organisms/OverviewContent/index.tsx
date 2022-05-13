@@ -43,70 +43,10 @@ export default function OverviewContent() {
                 </tr>
               </thead>
               <tbody>
-                <TableRow />
-                <tr className="align-middle text-center">
-                  <th scope="row">
-                    <img className="float-start me-3 mb-lg-0 mb-3" src="/img/overview-2.png" width="80" height="60" alt="" />
-                    <div className="game-title-header">
-                      <p className="game-title fw-medium text-start color-palette-1 m-0">Call of Duty:Modern</p>
-                      <p className="text-xs fw-normal text-start color-palette-2 m-0">Desktop</p>
-                    </div>
-                  </th>
-                  <td>
-                    <p className="fw-medium text-start color-palette-1 m-0">550 Gold</p>
-                  </td>
-                  <td>
-                    <p className="fw-medium text-start color-palette-1 m-0">Rp 740.000</p>
-                  </td>
-                  <td>
-                    <div>
-                      <span className="float-start icon-status success" />
-                      <p className="fw-medium text-start color-palette-1 m-0 position-relative">Success</p>
-                    </div>
-                  </td>
-                </tr>
-                <tr className="align-middle text-center">
-                  <th scope="row">
-                    <img className="float-start me-3 mb-lg-0 mb-3" src="/img/overview-3.png" width="80" height="60" alt="" />
-                    <div className="game-title-header">
-                      <p className="game-title fw-medium text-start color-palette-1 m-0">Clash of Clans</p>
-                      <p className="text-xs fw-normal text-start color-palette-2 m-0">Mobile</p>
-                    </div>
-                  </th>
-                  <td>
-                    <p className="fw-medium text-start color-palette-1 m-0">100 Gold</p>
-                  </td>
-                  <td>
-                    <p className="fw-medium text-start color-palette-1 m-0">Rp 120.000</p>
-                  </td>
-                  <td>
-                    <div>
-                      <span className="float-start icon-status failed" />
-                      <p className="fw-medium text-start color-palette-1 m-0 position-relative">Failed</p>
-                    </div>
-                  </td>
-                </tr>
-                <tr className="align-middle text-center">
-                  <th scope="row">
-                    <img className="float-start me-3 mb-lg-0 mb-3" src="/img/overview-4.png" width="80" height="60" alt="" />
-                    <div className="game-title-header">
-                      <p className="game-title fw-medium text-start color-palette-1 m-0">The Royal Game</p>
-                      <p className="text-xs fw-normal text-start color-palette-2 m-0">Mobile</p>
-                    </div>
-                  </th>
-                  <td>
-                    <p className="fw-medium text-start color-palette-1 m-0">225 Gold</p>
-                  </td>
-                  <td>
-                    <p className="fw-medium text-start color-palette-1 m-0">Rp 200.000</p>
-                  </td>
-                  <td>
-                    <div>
-                      <span className="float-start icon-status pending" />
-                      <p className="fw-medium text-start color-palette-1 m-0 position-relative">Pending</p>
-                    </div>
-                  </td>
-                </tr>
+                <TableRow image="overview-1" title="Mobile Legend" categori="Mobile" item={200} price={290000} status="Pending" />
+                <TableRow image="overview-2" title="Call of Duty:Modern" categori="Desktop" item={550} price={740000} status="Success" />
+                <TableRow image="overview-3" title="Clash of Clans" categori="Mobile" item={100} price={120000} status="Failed" />
+                <TableRow image="overview-4" title="The Royal Game" categori="Mobile" item={225} price={200000} status="Pending" />
               </tbody>
             </table>
           </div>
